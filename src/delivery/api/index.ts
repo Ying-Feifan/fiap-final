@@ -19,7 +19,7 @@ const defineMiddelwares = (router, express) => {
   router.use(
     cors({
       credentials: true,
-      origin: ["http://localhost:3100"],
+      origin: ["http://localhost:3100","http://localhost:19006"],
       methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
       allowedHeaders: [
         "Content-Type",
